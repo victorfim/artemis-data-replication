@@ -1,8 +1,8 @@
 apiVersion: broker.amq.io/v1beta1
 kind: ActiveMQArtemis
 metadata:
-  name: {{ dc_b_artemis_namespace }}
-  application: {{ dc_b_artemis_namespace }}-app
+  name: {{ dc_b_artemis_namespace }}-2
+  application: {{ dc_b_artemis_namespace }}-2-app
 spec:
   acceptors:
   - name: acceptor
@@ -16,7 +16,7 @@ spec:
   adminPassword: amqintadmin
   adminUser: admin
   brokerProperties:
-  - "AMQPConnections.target.uri=tcp://{{ dc_a_artemis_namespace }}-mirror-0-svc.{{ dc_a_artemis_namespace }}.svc.cluster.local:5673?clientFailureCheckPeriod=2000&connectionTTL=5000"
+  - "AMQPConnections.target.uri=tcp://{{ dc_a_artemis_cluster }}-mirror-0-svc.{{ dc_a_artemis_cluster }}.svc.cluster.local:5673?clientFailureCheckPeriod=2000&connectionTTL=5000"
   - "AMQPConnections.target.retryInterval=5000"
   - "AMQPConnections.target.reconnect-attempts=-1"
   - "AMQPConnections.target.user=admin"
@@ -30,6 +30,14 @@ spec:
     expose: true
     sslEnabled: false
   deploymentPlan:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - values:
+                  - eastus2-2
+                key: topology.kubernetes.io/zone
+                operator: In
     clustered: true
     extraMounts: {}
     image: placeholder

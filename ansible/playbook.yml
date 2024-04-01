@@ -18,6 +18,8 @@
 
     broker_disk_size: 2GiB
 
+    broker_env: qa
+
   tasks:
 
     - name: DC A - Define domain
