@@ -1,65 +1,66 @@
 apiVersion: broker.amq.io/v1beta1
 kind: ActiveMQArtemis
 metadata:
-  name: {{ dc_b_artemis_namespace }}-2
-  application: {{ dc_b_artemis_namespace }}-2-app
+  name: {{dc_b_artemis_namespace}}
+  labels:
+    brokerid: {{dc_b_artemis_namespace}}
+  generation: 1
+  namespace: {{dc_a_artemis_namespace}}
 spec:
   acceptors:
-  - name: acceptor
-    port: 61616
-    protocols: AMQP,CORE,STOMP
-  - name: mirror
-    port: 5673
-    protocols: AMQP
-    expose: true
-  addressSettings: {}
-  adminPassword: amqintadmin
-  adminUser: admin
+    - name: acceptor
+      port: 61616
+      protocols: 'AMQP,CORE,STOMP'
+    - expose: true
+      name: mirror
+      port: 5673
+      protocols: AMQP
   brokerProperties:
-  - "AMQPConnections.target.uri=tcp://{{ dc_a_artemis_cluster }}-mirror-0-svc.{{ dc_a_artemis_cluster }}.svc.cluster.local:5673?clientFailureCheckPeriod=2000&connectionTTL=5000"
-  - "AMQPConnections.target.retryInterval=5000"
-  - "AMQPConnections.target.reconnect-attempts=-1"
-  - "AMQPConnections.target.user=admin"
-  - "AMQPConnections.target.password=amqintadmin"
-  - "AMQPConnections.target.autoStart=true"
-  - "AMQPConnections.target.connectionElements.mirror.type=MIRROR"
-  - "AMQPConnections.target.connectionElements.mirror.messageAcknowledgements=true"
-  - "AMQPConnections.target.connectionElements.mirror.queueCreation=true"
-  - "AMQPConnections.target.connectionElements.mirror.queueRemoval=true"
-  console:
-    expose: true
-    sslEnabled: false
+    - AMQPConnections.target.uri=tcp://{{ dc_a_artemis_cluster  }}-mirror-0-svc.{{ dc_a_artemis_cluster }}.svc.cluster.local:5673?clientFailureCheckPeriod=2000&connectionTTL=5000"
+    - AMQPConnections.target.retryInterval=5000
+    - AMQPConnections.target.reconnect-attempts=-1
+    - AMQPConnections.target.user=admin
+    - AMQPConnections.target.password=amqintadmin
+    - AMQPConnections.target.autoStart=true
+    - AMQPConnections.target.connectionElements.mirror.type=MIRROR
+    - >-
+      AMQPConnections.target.connectionElements.mirror.messageAcknowledgements=true
+    - AMQPConnections.target.connectionElements.mirror.queueCreation=true
+    - AMQPConnections.target.connectionElements.mirror.queueRemoval=true
+  env:
+    - name: TZ
+      value: America/Sao_Paulo
   deploymentPlan:
-    nodeAffinity:
-      requiredDuringSchedulingIgnoredDuringExecution:
-        nodeSelectorTerms:
-          - matchExpressions:
-              - values:
-                  - eastus2-2
-                key: topology.kubernetes.io/zone
-                operator: In
-    clustered: true
-    extraMounts: {}
-    image: placeholder
-    journalType: nio
-    livenessProbe: {}
-    managementRBACEnabled: true
-    enableMetricsPlugin: true
-    messageMigration: true
-    persistenceEnabled: true
-    podSecurity: {}
-    readinessProbe: {}
-    requireLogin: true
     resources:
       requests:
         cpu: 200m
         memory: 128Mi
-    size: 1
+    affinity:
+      podAntiAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+                - values:
+                    - {{dc_a_artemis_namespace}}
+                  key: brokerid
+                  operator: In
+            topologyKey: kubernetes.io/hostname
     storage:
-      size: {{ broker_disk_size }}
+      size: 1Gi
+    size: 1
+    persistenceEnabled: true
+    requireLogin: true
+    messageMigration: true
+    managementRBACEnabled: true
+    journalType: nio
+    enableMetricsPlugin: true
+    clustered: true
+    image: placeholder
+  console:
+    expose: true
+    sslEnabled: false
   upgrades:
     enabled: false
     minor: false
-  env:
-  - name: TZ
-    value: America/Sao_Paulo
+  adminPassword: Rafael@123456784
+  adminUser: admin
