@@ -1,9 +1,9 @@
 apiVersion: broker.amq.io/v1beta1
 kind: ActiveMQArtemis
 metadata:
-  name: {{dc_b_artemis_namespace}}
+  name: {{dc_b_broker_name}}
   labels:
-    brokerid: {{dc_b_artemis_namespace}}
+    brokerid: {{dc_b_broker_name}}
   generation: 1
   namespace: {{dc_a_artemis_namespace}}
 spec:
@@ -41,7 +41,7 @@ spec:
           - labelSelector:
               matchExpressions:
                 - values:
-                    - {{dc_a_artemis_namespace}}
+                    - {{dc_b_broker_name}}
                   key: brokerid
                   operator: In
             topologyKey: kubernetes.io/hostname

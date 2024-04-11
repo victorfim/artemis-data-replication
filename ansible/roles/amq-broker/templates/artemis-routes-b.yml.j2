@@ -1,18 +1,18 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: artemis-b-wconsj-route
+  name: {{ dc_b_broker_name }}-wconsj-route
   namespace: {{ dc_b_artemis_namespace }}
   labels:
-    ActiveMQArtemis: artemis-b
-    application: artemis-b-app
+    ActiveMQArtemis: {{ dc_b_broker_name }}
+    application: {{ dc_b_broker_name }}-app
   annotations:
     openshift.io/host.generated: 'true'
 spec:
   host: amq-wconsj-{{ dc_b_artemis_cluster }}.apps.pgjwbjq2.eastus2.aroapp.io
   to:
     kind: Service
-    name: artemis-b-wconsj-0-svc
+    name: {{ dc_b_broker_name }}-wconsj-0-svc
     weight: 100
   port:
     targetPort: wconsj

@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: {{ dc_a_artemis_namespace }}-nodeport
+  name: {{ dc_a_broker_name }}-nodeport
   namespace: {{ dc_a_artemis_namespace }}
   annotations:
     service.beta.kubernetes.io/azure-load-balancer-internal: 'true'
@@ -22,5 +22,5 @@ spec:
   ipFamilyPolicy: SingleStack
   sessionAffinity: None
   selector:
-    ActiveMQArtemis: {{ dc_a_artemis_namespace }}
-    application: {{ dc_a_artemis_namespace }}-app
+    ActiveMQArtemis: {{ dc_a_broker_name }}
+    application: {{ dc_a_broker_name }}-app

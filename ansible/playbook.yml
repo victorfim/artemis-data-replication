@@ -8,6 +8,9 @@
     dc_b_artemis_cluster: my-target-cluster
     dc_a_artemis_namespace: artemis-a
     dc_b_artemis_namespace: artemis-b
+
+    dc_a_broker_name: brokera
+    dc_b_broker_name: brokerb
     
     external: true
 
@@ -17,8 +20,6 @@
     delete_demo: false
 
     broker_disk_size: 2GiB
-
-    broker_env: qa
 
   tasks:
 
