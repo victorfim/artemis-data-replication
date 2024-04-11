@@ -39,10 +39,8 @@ spec:
         requiredDuringSchedulingIgnoredDuringExecution:
           - labelSelector:
               matchExpressions:
-                - values:
-                    - {{dc_b_broker_name}}
-                  key: brokerid
-                  operator: In
+                - key: brokerid
+                  operator: DoesNotExist
             topologyKey: kubernetes.io/hostname
     storage:
       size: 1Gi
