@@ -40,7 +40,7 @@ spec:
           - labelSelector:
               matchExpressions:
                 - key: brokerid
-                  operator: In
+                  operator: DoesNotExist
             topologyKey: kubernetes.io/hostname
     storage:
       size: 1Gi
