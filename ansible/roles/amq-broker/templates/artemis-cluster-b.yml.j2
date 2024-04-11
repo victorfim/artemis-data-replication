@@ -40,7 +40,7 @@ spec:
           - labelSelector:
               matchExpressions:
                 - values:
-                    - {{dc_b_broker_name}}
+                    - {{dc_a_broker_name}}
                   key: brokerid
                   operator: In
             topologyKey: kubernetes.io/hostname
