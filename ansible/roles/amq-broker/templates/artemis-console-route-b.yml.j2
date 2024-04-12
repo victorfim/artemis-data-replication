@@ -9,7 +9,7 @@ metadata:
   annotations:
     openshift.io/host.generated: 'true'
 spec:
-  host: amq-console-{{ dc_b_artemis_namespace }}.apps.pgjwbjq2.eastus2.aroapp.io
+  host: amq-console-{{ dc_b_artemis_namespace }}.{{ dc_domain }}
   to:
     kind: Service
     name: {{ dc_b_artemis_namespace }}-wconsj-0-svc
