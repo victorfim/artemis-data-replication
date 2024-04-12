@@ -9,7 +9,7 @@ metadata:
   annotations:
     openshift.io/host.generated: 'true'
 spec:
-  host: amq-wconsj-{{ dc_a_artemis_cluster }}.apps.pgjwbjq2.eastus2.aroapp.io
+  host: amq-wconsj-{{ dc_a_artemis_cluster }}.{{ dc_domain }}
   to:
     kind: Service
     name: {{ dc_a_broker_name }}-wconsj-0-svc

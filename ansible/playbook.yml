@@ -1,6 +1,7 @@
 - hosts: localhost
   name: Install Artemis Data Replication
   vars:
+    dc_domain: apps.com
     dc_a_server: https://api.cluster-578cf.578cf.sandbox1078.opentlc.com:6443
     dc_b_server: https://api.cluster-h9xg5.h9xg5.sandbox72.opentlc.com:6443
     
