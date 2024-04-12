@@ -16,7 +16,7 @@ spec:
       port: 5673
       protocols: AMQP
   brokerProperties:
-    - "AMQPConnections.target.uri=tcp://{{ dc_a_broker_name }}-mirror-0-svc.{{ dc_a_artemis_cluster }}.svc.cluster.local:5673?clientFailureCheckPeriod=2000&connectionTTL=5000"
+    - "AMQPConnections.target.uri=tcp://{{ dc_a_broker_name }}-mirror-0-svc.{{ dc_a_artemis_namespace }}.svc.cluster.local:5673?clientFailureCheckPeriod=2000&connectionTTL=5000"
     - "AMQPConnections.target.retryInterval=5000"
     - "AMQPConnections.target.reconnect-attempts=-1"
     - "AMQPConnections.target.user=admin"
