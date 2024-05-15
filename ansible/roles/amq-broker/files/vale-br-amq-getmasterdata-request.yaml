@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.getmasterdata.request
+spec:
+  addressName: vale.br.amq.getmasterdata.request
+  queueName: vale.br.amq.getmasterdata.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

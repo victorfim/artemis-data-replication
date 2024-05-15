@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvp.sap.laydayreport.inbound
+spec:
+  addressName: vale.br.amq.gpvp.sap.laydayreport.inbound
+  queueName: vale.br.amq.gpvp.sap.laydayreport.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

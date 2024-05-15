@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.nimbi.rfx.outbound
+spec:
+  addressName: vale.br.amq.send.nimbi.rfx.outbound
+  queueName: vale.br.amq.send.nimbi.rfx.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.reversalmovement.send
+spec:
+  addressName: vale.br.amq.sap.reversalmovement.send
+  queueName: vale.br.amq.sap.reversalmovement.send
+  routingType: anycast
+  removeFromBrokerOnDelete: true

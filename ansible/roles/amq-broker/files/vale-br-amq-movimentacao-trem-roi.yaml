@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.movimentacao.trem.roi
+spec:
+  addressName: vale.br.amq.movimentacao.trem.roi
+  queueName: vale.br.amq.movimentacao.trem.roi
+  routingType: anycast
+  removeFromBrokerOnDelete: true

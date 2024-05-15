@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.gpvf.sge.situacaovgcarregado.dlq
+spec:
+  addressName: vale.br.gpvf.sge.situacaovgcarregado.dlq
+  queueName: vale.br.gpvf.sge.situacaovgcarregado.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

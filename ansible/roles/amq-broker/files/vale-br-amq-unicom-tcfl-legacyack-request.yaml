@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.unicom.tcfl.legacyack.request
+spec:
+  addressName: vale.br.amq.unicom.tcfl.legacyack.request
+  queueName: vale.br.amq.unicom.tcfl.legacyack.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

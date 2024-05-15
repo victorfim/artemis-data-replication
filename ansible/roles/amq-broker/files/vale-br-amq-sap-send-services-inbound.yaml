@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.send.services.inbound
+spec:
+  addressName: vale.br.amq.sap.send.services.inbound
+  queueName: vale.br.amq.sap.send.services.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

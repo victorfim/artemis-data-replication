@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.situacao.travador.gco
+spec:
+  addressName: vale.br.amq.situacao.travador.gco
+  queueName: vale.br.amq.situacao.travador.gco
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.tcfl.logisticbilling.legacy.response
+spec:
+  addressName: vale.br.amq.tcfl.logisticbilling.legacy.response
+  queueName: vale.br.amq.tcfl.logisticbilling.legacy.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

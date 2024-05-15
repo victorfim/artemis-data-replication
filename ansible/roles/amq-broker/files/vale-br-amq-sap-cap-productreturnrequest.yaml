@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.cap.productreturnrequest
+spec:
+  addressName: vale.br.amq.sap.cap.productreturnrequest
+  queueName: vale.br.amq.sap.cap.productreturnrequest
+  routingType: anycast
+  removeFromBrokerOnDelete: true

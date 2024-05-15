@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.acesstage.shippingnotecte.dlq
+spec:
+  addressName: vale.br.amq.gpvf.acesstage.shippingnotecte.dlq
+  queueName: vale.br.amq.gpvf.acesstage.shippingnotecte.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

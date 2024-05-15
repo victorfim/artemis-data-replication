@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.syndicate.fpw.consume
+spec:
+  addressName: vale.br.amq.syndicate.fpw.consume
+  queueName: vale.br.amq.syndicate.fpw.consume
+  routingType: anycast
+  removeFromBrokerOnDelete: true

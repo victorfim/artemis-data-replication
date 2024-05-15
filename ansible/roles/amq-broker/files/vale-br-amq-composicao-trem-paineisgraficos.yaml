@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.composicao.trem.paineisgraficos
+spec:
+  addressName: vale.br.amq.composicao.trem.paineisgraficos
+  queueName: vale.br.amq.composicao.trem.paineisgraficos
+  routingType: anycast
+  removeFromBrokerOnDelete: true

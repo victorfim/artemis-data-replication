@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.veiculos.situacaovigente
+spec:
+  addressName: vale.br.amq.veiculos.situacaovigente
+  queueName: vale.br.amq.veiculos.situacaovigente
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gsrp.sap.sendmaintainsupplierdata
+spec:
+  addressName: vale.br.amq.gsrp.sap.sendmaintainsupplierdata
+  queueName: vale.br.amq.gsrp.sap.sendmaintainsupplierdata
+  routingType: anycast
+  removeFromBrokerOnDelete: true

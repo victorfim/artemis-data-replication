@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.veiculosnopatio.response.dlq
+spec:
+  addressName: vale.br.amq.gpvf.veiculosnopatio.response.dlq
+  queueName: vale.br.amq.gpvf.veiculosnopatio.response.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

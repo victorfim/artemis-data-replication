@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.siscomex.sap.envionotacct
+spec:
+  addressName: vale.br.amq.siscomex.sap.envionotacct
+  queueName: vale.br.amq.siscomex.sap.envionotacct
+  routingType: anycast
+  removeFromBrokerOnDelete: true

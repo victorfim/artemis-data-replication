@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.receive.changeorder.outbound.dlq
+spec:
+  addressName: vale.br.amq.receive.changeorder.outbound.dlq
+  queueName: vale.br.amq.receive.changeorder.outbound.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

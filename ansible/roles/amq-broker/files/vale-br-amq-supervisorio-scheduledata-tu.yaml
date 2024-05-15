@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.supervisorio.scheduledata.tu
+spec:
+  addressName: vale.br.amq.supervisorio.scheduledata.tu
+  queueName: vale.br.amq.supervisorio.scheduledata.tu
+  routingType: anycast
+  removeFromBrokerOnDelete: true

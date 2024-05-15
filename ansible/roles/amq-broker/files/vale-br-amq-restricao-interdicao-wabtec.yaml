@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.restricao.interdicao.wabtec
+spec:
+  addressName: vale.br.amq.restricao.interdicao.wabtec
+  queueName: vale.br.amq.restricao.interdicao.wabtec
+  routingType: anycast
+  removeFromBrokerOnDelete: true

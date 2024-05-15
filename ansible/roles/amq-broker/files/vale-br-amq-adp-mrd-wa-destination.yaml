@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.adp.mrd.wa.destination
+spec:
+  addressName: vale.br.amq.adp.mrd.wa.destination
+  queueName: vale.br.amq.adp.mrd.wa.destination
+  routingType: anycast
+  removeFromBrokerOnDelete: true

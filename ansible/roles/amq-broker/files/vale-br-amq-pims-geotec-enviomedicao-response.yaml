@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pims.geotec.enviomedicao.response
+spec:
+  addressName: vale.br.amq.pims.geotec.enviomedicao.response
+  queueName: vale.br.amq.pims.geotec.enviomedicao.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

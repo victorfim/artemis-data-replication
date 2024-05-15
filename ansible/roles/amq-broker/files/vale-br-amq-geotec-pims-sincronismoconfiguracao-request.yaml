@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.geotec.pims.sincronismoconfiguracao.request
+spec:
+  addressName: vale.br.amq.geotec.pims.sincronismoconfiguracao.request
+  queueName: vale.br.amq.geotec.pims.sincronismoconfiguracao.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

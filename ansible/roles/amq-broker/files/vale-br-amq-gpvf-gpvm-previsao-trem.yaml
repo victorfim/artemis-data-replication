@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.gpvm.previsao.trem
+spec:
+  addressName: vale.br.amq.gpvf.gpvm.previsao.trem
+  queueName: vale.br.amq.gpvf.gpvm.previsao.trem
+  routingType: anycast
+  removeFromBrokerOnDelete: true

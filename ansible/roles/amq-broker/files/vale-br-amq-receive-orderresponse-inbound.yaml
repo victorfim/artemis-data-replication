@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.receive.orderresponse.inbound
+spec:
+  addressName: vale.br.amq.receive.orderresponse.inbound
+  queueName: vale.br.amq.receive.orderresponse.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

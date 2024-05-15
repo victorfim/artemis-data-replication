@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pt.ccp
+spec:
+  addressName: vale.br.amq.pt.ccp
+  queueName: vale.br.amq.pt.ccp
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.obt.listofcostobjectrequest.dlq
+spec:
+  addressName: vale.br.amq.sap.obt.listofcostobjectrequest.dlq
+  queueName: vale.br.amq.sap.obt.listofcostobjectrequest.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

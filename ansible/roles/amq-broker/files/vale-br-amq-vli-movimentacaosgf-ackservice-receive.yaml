@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.vli.movimentacaosgf.ackservice.receive
+spec:
+  addressName: vale.br.amq.vli.movimentacaosgf.ackservice.receive
+  queueName: vale.br.amq.vli.movimentacaosgf.ackservice.receive
+  routingType: anycast
+  removeFromBrokerOnDelete: true

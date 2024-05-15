@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvm.monothread.eventhub.dlq
+spec:
+  addressName: vale.br.amq.gpvm.monothread.eventhub.dlq
+  queueName: vale.br.amq.gpvm.monothread.eventhub.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

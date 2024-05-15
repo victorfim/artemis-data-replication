@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sismografo.pims.sismografia.waveform
+spec:
+  addressName: vale.br.amq.sismografo.pims.sismografia.waveform
+  queueName: vale.br.amq.sismografo.pims.sismografia.waveform
+  routingType: anycast
+  removeFromBrokerOnDelete: true

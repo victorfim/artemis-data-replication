@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.loggernet.valeecos.agua.corrente.dlq
+spec:
+  addressName: vale.br.amq.loggernet.valeecos.agua.corrente.dlq
+  queueName: vale.br.amq.loggernet.valeecos.agua.corrente.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

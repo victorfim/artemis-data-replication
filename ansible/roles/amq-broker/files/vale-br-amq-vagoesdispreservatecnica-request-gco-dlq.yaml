@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.vagoesdispreservatecnica.request.gco.dlq
+spec:
+  addressName: vale.br.amq.vagoesdispreservatecnica.request.gco.dlq
+  queueName: vale.br.amq.vagoesdispreservatecnica.request.gco.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

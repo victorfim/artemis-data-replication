@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.loggernet.pims.s11d.historico
+spec:
+  addressName: vale.br.amq.loggernet.pims.s11d.historico
+  queueName: vale.br.amq.loggernet.pims.s11d.historico
+  routingType: anycast
+  removeFromBrokerOnDelete: true

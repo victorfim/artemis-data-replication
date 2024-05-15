@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.movimentosprevistos
+spec:
+  addressName: vale.br.amq.movimentosprevistos
+  queueName: vale.br.amq.movimentosprevistos
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.ngpvm.sap.controlamountproducts.dlq
+spec:
+  addressName: vale.br.amq.ngpvm.sap.controlamountproducts.dlq
+  queueName: vale.br.amq.ngpvm.sap.controlamountproducts.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

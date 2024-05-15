@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sopweb.sge.autonomiaestocagem
+spec:
+  addressName: vale.br.amq.sopweb.sge.autonomiaestocagem
+  queueName: vale.br.amq.sopweb.sge.autonomiaestocagem
+  routingType: anycast
+  removeFromBrokerOnDelete: true

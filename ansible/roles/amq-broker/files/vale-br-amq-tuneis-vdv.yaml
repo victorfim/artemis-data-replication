@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.tuneis.vdv
+spec:
+  addressName: vale.br.amq.tuneis.vdv
+  queueName: vale.br.amq.tuneis.vdv
+  routingType: anycast
+  removeFromBrokerOnDelete: true

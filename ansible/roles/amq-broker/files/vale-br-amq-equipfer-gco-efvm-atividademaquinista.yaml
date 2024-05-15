@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.equipfer.gco.efvm.atividademaquinista
+spec:
+  addressName: vale.br.amq.equipfer.gco.efvm.atividademaquinista
+  queueName: vale.br.amq.equipfer.gco.efvm.atividademaquinista
+  routingType: anycast
+  removeFromBrokerOnDelete: true

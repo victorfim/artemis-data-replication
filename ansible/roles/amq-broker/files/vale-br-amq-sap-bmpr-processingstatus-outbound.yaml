@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.bmpr.processingstatus.outbound
+spec:
+  addressName: vale.br.amq.sap.bmpr.processingstatus.outbound
+  queueName: vale.br.amq.sap.bmpr.processingstatus.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

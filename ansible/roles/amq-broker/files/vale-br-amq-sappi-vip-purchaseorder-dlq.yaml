@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sappi.vip.purchaseorder.dlq
+spec:
+  addressName: vale.br.amq.sappi.vip.purchaseorder.dlq
+  queueName: vale.br.amq.sappi.vip.purchaseorder.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

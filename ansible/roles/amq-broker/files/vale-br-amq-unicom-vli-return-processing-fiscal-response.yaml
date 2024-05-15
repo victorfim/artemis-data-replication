@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.unicom.vli.return.processing.fiscal.response
+spec:
+  addressName: vale.br.amq.unicom.vli.return.processing.fiscal.response
+  queueName: vale.br.amq.unicom.vli.return.processing.fiscal.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

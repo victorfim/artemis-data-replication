@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.migrisbrasil.valeecos.consomear.dlq
+spec:
+  addressName: vale.br.amq.migrisbrasil.valeecos.consomear.dlq
+  queueName: vale.br.amq.migrisbrasil.valeecos.consomear.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

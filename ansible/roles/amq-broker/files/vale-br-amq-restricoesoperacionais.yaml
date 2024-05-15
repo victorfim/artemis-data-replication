@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.restricoesoperacionais
+spec:
+  addressName: vale.br.amq.restricoesoperacionais
+  queueName: vale.br.amq.restricoesoperacionais
+  routingType: anycast
+  removeFromBrokerOnDelete: true

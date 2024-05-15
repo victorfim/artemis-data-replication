@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.interchange.train.receive
+spec:
+  addressName: vale.br.amq.interchange.train.receive
+  queueName: vale.br.amq.interchange.train.receive
+  routingType: anycast
+  removeFromBrokerOnDelete: true

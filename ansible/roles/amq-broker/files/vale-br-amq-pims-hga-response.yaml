@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pims.hga.response
+spec:
+  addressName: vale.br.amq.pims.hga.response
+  queueName: vale.br.amq.pims.hga.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

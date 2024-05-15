@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.indisponibilidaderotas.gco
+spec:
+  addressName: vale.br.amq.indisponibilidaderotas.gco
+  queueName: vale.br.amq.indisponibilidaderotas.gco
+  routingType: anycast
+  removeFromBrokerOnDelete: true

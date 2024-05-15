@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.nimbi.changeorder.outbound
+spec:
+  addressName: vale.br.amq.send.nimbi.changeorder.outbound
+  queueName: vale.br.amq.send.nimbi.changeorder.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

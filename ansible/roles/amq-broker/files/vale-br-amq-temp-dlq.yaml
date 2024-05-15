@@ -1,10 +1,8 @@
-apiVersion: broker.amq.io/v1beta1
 kind: ActiveMQArtemisAddress
 metadata:
-  name: person
+  name: vale.br.amq.temp.dlq
 spec:
-  addressName: person
-  queueName: person
+  addressName: vale.br.amq.temp.dlq
+  queueName: vale.br.amq.temp.dlq
   routingType: anycast
   removeFromBrokerOnDelete: true
-

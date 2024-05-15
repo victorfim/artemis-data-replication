@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvr.loadstatisticalindex.inbound
+spec:
+  addressName: vale.br.amq.gpvr.loadstatisticalindex.inbound
+  queueName: vale.br.amq.gpvr.loadstatisticalindex.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

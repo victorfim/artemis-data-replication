@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.publicinterface.loadconditions.dlq
+spec:
+  addressName: vale.br.amq.sap.publicinterface.loadconditions.dlq
+  queueName: vale.br.amq.sap.publicinterface.loadconditions.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

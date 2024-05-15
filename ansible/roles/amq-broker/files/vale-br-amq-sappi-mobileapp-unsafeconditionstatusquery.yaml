@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sappi.mobileapp.unsafeconditionstatusquery
+spec:
+  addressName: vale.br.amq.sappi.mobileapp.unsafeconditionstatusquery
+  queueName: vale.br.amq.sappi.mobileapp.unsafeconditionstatusquery
+  routingType: anycast
+  removeFromBrokerOnDelete: true

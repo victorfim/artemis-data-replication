@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.fuse.sap.gpvp.scheduling.outbound.dlq
+spec:
+  addressName: vale.br.amq.fuse.sap.gpvp.scheduling.outbound.dlq
+  queueName: vale.br.amq.fuse.sap.gpvp.scheduling.outbound.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

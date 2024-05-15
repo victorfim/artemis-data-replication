@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sis.fase.participantsdataupdateall
+spec:
+  addressName: vale.br.amq.sis.fase.participantsdataupdateall
+  queueName: vale.br.amq.sis.fase.participantsdataupdateall
+  routingType: anycast
+  removeFromBrokerOnDelete: true

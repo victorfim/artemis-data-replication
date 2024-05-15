@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.faturaestorno.cfsp.response.ack
+spec:
+  addressName: vale.br.amq.faturaestorno.cfsp.response.ack
+  queueName: vale.br.amq.faturaestorno.cfsp.response.ack
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.sap.fuelcontrol.send
+spec:
+  addressName: vale.br.amq.gpvf.sap.fuelcontrol.send
+  queueName: vale.br.amq.gpvf.sap.fuelcontrol.send
+  routingType: anycast
+  removeFromBrokerOnDelete: true

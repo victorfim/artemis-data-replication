@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.costcenter.sdweb.consume
+spec:
+  addressName: vale.br.amq.costcenter.sdweb.consume
+  queueName: vale.br.amq.costcenter.sdweb.consume
+  routingType: anycast
+  removeFromBrokerOnDelete: true

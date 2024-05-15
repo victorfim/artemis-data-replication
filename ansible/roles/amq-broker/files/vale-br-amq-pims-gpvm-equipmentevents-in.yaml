@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pims.gpvm.equipmentevents.in
+spec:
+  addressName: vale.br.amq.pims.gpvm.equipmentevents.in
+  queueName: vale.br.amq.pims.gpvm.equipmentevents.in
+  routingType: anycast
+  removeFromBrokerOnDelete: true

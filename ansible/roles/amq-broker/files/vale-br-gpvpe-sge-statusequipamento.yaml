@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.gpvpe.sge.statusequipamento
+spec:
+  addressName: vale.br.gpvpe.sge.statusequipamento
+  queueName: vale.br.gpvpe.sge.statusequipamento
+  routingType: anycast
+  removeFromBrokerOnDelete: true

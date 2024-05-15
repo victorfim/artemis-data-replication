@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.receive.asncollected.inbound.dlq
+spec:
+  addressName: vale.br.amq.receive.asncollected.inbound.dlq
+  queueName: vale.br.amq.receive.asncollected.inbound.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

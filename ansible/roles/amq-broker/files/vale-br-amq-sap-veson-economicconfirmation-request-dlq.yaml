@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.veson.economicconfirmation.request.dlq
+spec:
+  addressName: vale.br.amq.sap.veson.economicconfirmation.request.dlq
+  queueName: vale.br.amq.sap.veson.economicconfirmation.request.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.unicom.vli.associatedrailflow.response.ack
+spec:
+  addressName: vale.br.amq.unicom.vli.associatedrailflow.response.ack
+  queueName: vale.br.amq.unicom.vli.associatedrailflow.response.ack
+  routingType: anycast
+  removeFromBrokerOnDelete: true

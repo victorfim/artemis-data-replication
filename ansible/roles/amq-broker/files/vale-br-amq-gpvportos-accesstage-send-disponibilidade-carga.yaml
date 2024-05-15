@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvportos.accesstage.send.disponibilidade.carga
+spec:
+  addressName: vale.br.amq.gpvportos.accesstage.send.disponibilidade.carga
+  queueName: vale.br.amq.gpvportos.accesstage.send.disponibilidade.carga
+  routingType: anycast
+  removeFromBrokerOnDelete: true

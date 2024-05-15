@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.api.roi.consuption
+spec:
+  addressName: vale.br.amq.send.api.roi.consuption
+  queueName: vale.br.amq.send.api.roi.consuption
+  routingType: anycast
+  removeFromBrokerOnDelete: true

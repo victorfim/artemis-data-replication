@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.fuse.logger
+spec:
+  addressName: vale.br.amq.fuse.logger
+  queueName: vale.br.amq.fuse.logger
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.descontoalimentacao.smartoffice.fpw.dlq
+spec:
+  addressName: vale.br.amq.descontoalimentacao.smartoffice.fpw.dlq
+  queueName: vale.br.amq.descontoalimentacao.smartoffice.fpw.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

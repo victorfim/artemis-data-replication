@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.datalogger.barragens.sulsudeste.pims.geotecnia
+spec:
+  addressName: vale.br.amq.datalogger.barragens.sulsudeste.pims.geotecnia
+  queueName: vale.br.amq.datalogger.barragens.sulsudeste.pims.geotecnia
+  routingType: anycast
+  removeFromBrokerOnDelete: true

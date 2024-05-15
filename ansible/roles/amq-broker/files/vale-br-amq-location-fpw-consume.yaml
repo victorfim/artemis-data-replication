@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.location.fpw.consume
+spec:
+  addressName: vale.br.amq.location.fpw.consume
+  queueName: vale.br.amq.location.fpw.consume
+  routingType: anycast
+  removeFromBrokerOnDelete: true

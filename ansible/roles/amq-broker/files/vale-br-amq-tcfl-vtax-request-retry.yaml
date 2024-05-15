@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.tcfl.vtax.request.retry
+spec:
+  addressName: vale.br.amq.tcfl.vtax.request.retry
+  queueName: vale.br.amq.tcfl.vtax.request.retry
+  routingType: anycast
+  removeFromBrokerOnDelete: true

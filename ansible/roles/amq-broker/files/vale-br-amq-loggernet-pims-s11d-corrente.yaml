@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.loggernet.pims.s11d.corrente
+spec:
+  addressName: vale.br.amq.loggernet.pims.s11d.corrente
+  queueName: vale.br.amq.loggernet.pims.s11d.corrente
+  routingType: anycast
+  removeFromBrokerOnDelete: true

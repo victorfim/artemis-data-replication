@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.peoplesoft.pasa.consumointerno
+spec:
+  addressName: vale.br.amq.peoplesoft.pasa.consumointerno
+  queueName: vale.br.amq.peoplesoft.pasa.consumointerno
+  routingType: anycast
+  removeFromBrokerOnDelete: true

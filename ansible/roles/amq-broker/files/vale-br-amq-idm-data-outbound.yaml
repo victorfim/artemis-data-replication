@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.idm.data.outbound
+spec:
+  addressName: vale.br.amq.idm.data.outbound
+  queueName: vale.br.amq.idm.data.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.fuse.request.sts
+spec:
+  addressName: vale.br.amq.fuse.request.sts
+  queueName: vale.br.amq.fuse.request.sts
+  routingType: anycast
+  removeFromBrokerOnDelete: true

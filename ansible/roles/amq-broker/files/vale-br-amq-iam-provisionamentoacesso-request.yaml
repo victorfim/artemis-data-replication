@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.iam.provisionamentoacesso.request
+spec:
+  addressName: vale.br.amq.iam.provisionamentoacesso.request
+  queueName: vale.br.amq.iam.provisionamentoacesso.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

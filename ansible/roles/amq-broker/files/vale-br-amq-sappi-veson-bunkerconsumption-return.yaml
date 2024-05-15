@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sappi.veson.bunkerconsumption.return
+spec:
+  addressName: vale.br.amq.sappi.veson.bunkerconsumption.return
+  queueName: vale.br.amq.sappi.veson.bunkerconsumption.return
+  routingType: anycast
+  removeFromBrokerOnDelete: true

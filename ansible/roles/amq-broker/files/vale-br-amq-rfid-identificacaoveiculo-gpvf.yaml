@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.rfid.identificacaoveiculo.gpvf
+spec:
+  addressName: vale.br.amq.rfid.identificacaoveiculo.gpvf
+  queueName: vale.br.amq.rfid.identificacaoveiculo.gpvf
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.planoformacaotrens.request.gco.dlq
+spec:
+  addressName: vale.br.amq.planoformacaotrens.request.gco.dlq
+  queueName: vale.br.amq.planoformacaotrens.request.gco.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

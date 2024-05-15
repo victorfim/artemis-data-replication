@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.bmpr.sap.goodreceiptsissues.inbound
+spec:
+  addressName: vale.br.amq.bmpr.sap.goodreceiptsissues.inbound
+  queueName: vale.br.amq.bmpr.sap.goodreceiptsissues.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

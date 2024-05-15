@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.updateadherenceinformation.portal.outbound
+spec:
+  addressName: vale.br.amq.updateadherenceinformation.portal.outbound
+  queueName: vale.br.amq.updateadherenceinformation.portal.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

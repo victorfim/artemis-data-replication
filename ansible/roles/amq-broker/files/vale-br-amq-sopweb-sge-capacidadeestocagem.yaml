@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sopweb.sge.capacidadeestocagem
+spec:
+  addressName: vale.br.amq.sopweb.sge.capacidadeestocagem
+  queueName: vale.br.amq.sopweb.sge.capacidadeestocagem
+  routingType: anycast
+  removeFromBrokerOnDelete: true

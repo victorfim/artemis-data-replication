@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.rawmovement.gpvp.dlq
+spec:
+  addressName: vale.br.amq.rawmovement.gpvp.dlq
+  queueName: vale.br.amq.rawmovement.gpvp.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

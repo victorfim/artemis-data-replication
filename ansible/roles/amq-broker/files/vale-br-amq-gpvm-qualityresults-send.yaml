@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvm.qualityresults.send
+spec:
+  addressName: vale.br.amq.gpvm.qualityresults.send
+  queueName: vale.br.amq.gpvm.qualityresults.send
+  routingType: anycast
+  removeFromBrokerOnDelete: true

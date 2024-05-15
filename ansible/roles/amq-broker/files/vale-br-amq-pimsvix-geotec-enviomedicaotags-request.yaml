@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pimsvix.geotec.enviomedicaotags.request
+spec:
+  addressName: vale.br.amq.pimsvix.geotec.enviomedicaotags.request
+  queueName: vale.br.amq.pimsvix.geotec.enviomedicaotags.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

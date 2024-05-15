@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvp.multithread.eventhub
+spec:
+  addressName: vale.br.amq.gpvp.multithread.eventhub
+  queueName: vale.br.amq.gpvp.multithread.eventhub
+  routingType: anycast
+  removeFromBrokerOnDelete: true

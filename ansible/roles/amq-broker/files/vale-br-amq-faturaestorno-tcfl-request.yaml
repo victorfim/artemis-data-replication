@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.faturaestorno.tcfl.request
+spec:
+  addressName: vale.br.amq.faturaestorno.tcfl.request
+  queueName: vale.br.amq.faturaestorno.tcfl.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

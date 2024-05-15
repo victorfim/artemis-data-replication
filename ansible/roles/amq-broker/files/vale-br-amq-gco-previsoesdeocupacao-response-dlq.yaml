@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gco.previsoesdeocupacao.response.dlq
+spec:
+  addressName: vale.br.amq.gco.previsoesdeocupacao.response.dlq
+  queueName: vale.br.amq.gco.previsoesdeocupacao.response.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.positioningdischarge.gpvp.send.dlq
+spec:
+  addressName: vale.br.amq.positioningdischarge.gpvp.send.dlq
+  queueName: vale.br.amq.positioningdischarge.gpvp.send.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

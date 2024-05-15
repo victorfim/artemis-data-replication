@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.nexxera.materialaging.dlq
+spec:
+  addressName: vale.br.amq.sap.nexxera.materialaging.dlq
+  queueName: vale.br.amq.sap.nexxera.materialaging.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

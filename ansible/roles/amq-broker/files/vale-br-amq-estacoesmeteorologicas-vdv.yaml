@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.estacoesmeteorologicas.vdv
+spec:
+  addressName: vale.br.amq.estacoesmeteorologicas.vdv
+  queueName: vale.br.amq.estacoesmeteorologicas.vdv
+  routingType: anycast
+  removeFromBrokerOnDelete: true

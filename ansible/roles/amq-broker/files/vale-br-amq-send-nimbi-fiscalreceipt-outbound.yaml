@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.nimbi.fiscalreceipt.outbound
+spec:
+  addressName: vale.br.amq.send.nimbi.fiscalreceipt.outbound
+  queueName: vale.br.amq.send.nimbi.fiscalreceipt.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

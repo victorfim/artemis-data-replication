@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvp.stockyardmap
+spec:
+  addressName: vale.br.amq.gpvp.stockyardmap
+  queueName: vale.br.amq.gpvp.stockyardmap
+  routingType: anycast
+  removeFromBrokerOnDelete: true

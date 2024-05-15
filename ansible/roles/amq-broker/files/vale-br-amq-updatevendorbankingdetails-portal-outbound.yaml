@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.updatevendorbankingdetails.portal.outbound
+spec:
+  addressName: vale.br.amq.updatevendorbankingdetails.portal.outbound
+  queueName: vale.br.amq.updatevendorbankingdetails.portal.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

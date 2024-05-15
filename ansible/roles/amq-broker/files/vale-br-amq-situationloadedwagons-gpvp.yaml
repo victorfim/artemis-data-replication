@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.situationloadedwagons.gpvp
+spec:
+  addressName: vale.br.amq.situationloadedwagons.gpvp
+  queueName: vale.br.amq.situationloadedwagons.gpvp
+  routingType: anycast
+  removeFromBrokerOnDelete: true

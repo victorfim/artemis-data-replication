@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.eai.faturamentoapoiop.request.dlq
+spec:
+  addressName: vale.br.amq.eai.faturamentoapoiop.request.dlq
+  queueName: vale.br.amq.eai.faturamentoapoiop.request.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

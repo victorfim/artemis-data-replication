@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.receive.asnchange.outbound
+spec:
+  addressName: vale.br.amq.receive.asnchange.outbound
+  queueName: vale.br.amq.receive.asnchange.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

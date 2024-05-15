@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvm.gco.carregamentoreal
+spec:
+  addressName: vale.br.amq.gpvm.gco.carregamentoreal
+  queueName: vale.br.amq.gpvm.gco.carregamentoreal
+  routingType: anycast
+  removeFromBrokerOnDelete: true

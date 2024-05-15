@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.datalogger.vdv
+spec:
+  addressName: vale.br.amq.datalogger.vdv
+  queueName: vale.br.amq.datalogger.vdv
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sappi.veson.contractcreated.dlq
+spec:
+  addressName: vale.br.amq.sappi.veson.contractcreated.dlq
+  queueName: vale.br.amq.sappi.veson.contractcreated.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

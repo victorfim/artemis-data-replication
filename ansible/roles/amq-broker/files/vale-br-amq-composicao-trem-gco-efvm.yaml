@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.composicao.trem.gco.efvm
+spec:
+  addressName: vale.br.amq.composicao.trem.gco.efvm
+  queueName: vale.br.amq.composicao.trem.gco.efvm
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.nimbi.purchaseorder.outbound.dlq
+spec:
+  addressName: vale.br.amq.send.nimbi.purchaseorder.outbound.dlq
+  queueName: vale.br.amq.send.nimbi.purchaseorder.outbound.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

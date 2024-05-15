@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.veson.sappi.contractsapproval
+spec:
+  addressName: vale.br.amq.veson.sappi.contractsapproval
+  queueName: vale.br.amq.veson.sappi.contractsapproval
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.faixatrem.gco
+spec:
+  addressName: vale.br.amq.faixatrem.gco
+  queueName: vale.br.amq.faixatrem.gco
+  routingType: anycast
+  removeFromBrokerOnDelete: true

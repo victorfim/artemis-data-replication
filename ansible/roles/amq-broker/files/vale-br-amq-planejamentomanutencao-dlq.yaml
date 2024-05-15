@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.planejamentomanutencao.dlq
+spec:
+  addressName: vale.br.amq.planejamentomanutencao.dlq
+  queueName: vale.br.amq.planejamentomanutencao.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

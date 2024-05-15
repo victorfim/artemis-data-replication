@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.unicom.vli.regulatorydata.request.dlq
+spec:
+  addressName: vale.br.amq.unicom.vli.regulatorydata.request.dlq
+  queueName: vale.br.amq.unicom.vli.regulatorydata.request.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.unicom.tcfl.requestbilling.response
+spec:
+  addressName: vale.br.amq.unicom.tcfl.requestbilling.response
+  queueName: vale.br.amq.unicom.tcfl.requestbilling.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

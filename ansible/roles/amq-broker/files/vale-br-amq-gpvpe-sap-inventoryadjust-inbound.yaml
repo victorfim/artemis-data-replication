@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvpe.sap.inventoryadjust.inbound
+spec:
+  addressName: vale.br.amq.gpvpe.sap.inventoryadjust.inbound
+  queueName: vale.br.amq.gpvpe.sap.inventoryadjust.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

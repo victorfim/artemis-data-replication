@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.receive.asnacceptance.inbound
+spec:
+  addressName: vale.br.amq.receive.asnacceptance.inbound
+  queueName: vale.br.amq.receive.asnacceptance.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

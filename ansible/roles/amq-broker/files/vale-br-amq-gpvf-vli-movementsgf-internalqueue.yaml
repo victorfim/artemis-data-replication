@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.vli.movementsgf.internalqueue
+spec:
+  addressName: vale.br.amq.gpvf.vli.movementsgf.internalqueue
+  queueName: vale.br.amq.gpvf.vli.movementsgf.internalqueue
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.receive.fiscalreceipt.outbound.dlq
+spec:
+  addressName: vale.br.amq.receive.fiscalreceipt.outbound.dlq
+  queueName: vale.br.amq.receive.fiscalreceipt.outbound.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

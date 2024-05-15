@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.datalogger.vdv.inclinometro
+spec:
+  addressName: vale.br.amq.datalogger.vdv.inclinometro
+  queueName: vale.br.amq.datalogger.vdv.inclinometro
+  routingType: anycast
+  removeFromBrokerOnDelete: true

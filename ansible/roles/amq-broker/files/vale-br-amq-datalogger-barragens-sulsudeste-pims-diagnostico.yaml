@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.datalogger.barragens.sulsudeste.pims.diagnostico
+spec:
+  addressName: vale.br.amq.datalogger.barragens.sulsudeste.pims.diagnostico
+  queueName: vale.br.amq.datalogger.barragens.sulsudeste.pims.diagnostico
+  routingType: anycast
+  removeFromBrokerOnDelete: true

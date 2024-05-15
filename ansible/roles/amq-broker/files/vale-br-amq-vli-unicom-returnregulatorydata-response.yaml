@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.vli.unicom.returnregulatorydata.response
+spec:
+  addressName: vale.br.amq.vli.unicom.returnregulatorydata.response
+  queueName: vale.br.amq.vli.unicom.returnregulatorydata.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

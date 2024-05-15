@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.grm.gpvm.ciclos
+spec:
+  addressName: vale.br.amq.grm.gpvm.ciclos
+  queueName: vale.br.amq.grm.gpvm.ciclos
+  routingType: anycast
+  removeFromBrokerOnDelete: true

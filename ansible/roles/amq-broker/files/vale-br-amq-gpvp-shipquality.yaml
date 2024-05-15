@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvp.shipquality
+spec:
+  addressName: vale.br.amq.gpvp.shipquality
+  queueName: vale.br.amq.gpvp.shipquality
+  routingType: anycast
+  removeFromBrokerOnDelete: true

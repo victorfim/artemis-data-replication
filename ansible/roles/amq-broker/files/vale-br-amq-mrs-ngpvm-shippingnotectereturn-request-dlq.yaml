@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.mrs.ngpvm.shippingnotectereturn.request.dlq
+spec:
+  addressName: vale.br.amq.mrs.ngpvm.shippingnotectereturn.request.dlq
+  queueName: vale.br.amq.mrs.ngpvm.shippingnotectereturn.request.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

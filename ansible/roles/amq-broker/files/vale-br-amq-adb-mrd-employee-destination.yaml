@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.adb.mrd.employee.destination
+spec:
+  addressName: vale.br.amq.adb.mrd.employee.destination
+  queueName: vale.br.amq.adb.mrd.employee.destination
+  routingType: anycast
+  removeFromBrokerOnDelete: true

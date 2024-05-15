@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.nimbi.payment.outbound
+spec:
+  addressName: vale.br.amq.send.nimbi.payment.outbound
+  queueName: vale.br.amq.send.nimbi.payment.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

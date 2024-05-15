@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvp.lotallocationandroutingprocess
+spec:
+  addressName: vale.br.amq.gpvp.lotallocationandroutingprocess
+  queueName: vale.br.amq.gpvp.lotallocationandroutingprocess
+  routingType: anycast
+  removeFromBrokerOnDelete: true

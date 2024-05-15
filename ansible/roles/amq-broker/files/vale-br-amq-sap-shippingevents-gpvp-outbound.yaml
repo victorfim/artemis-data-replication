@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.sap.shippingevents.gpvp.outbound
+spec:
+  addressName: vale.br.amq.sap.shippingevents.gpvp.outbound
+  queueName: vale.br.amq.sap.shippingevents.gpvp.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

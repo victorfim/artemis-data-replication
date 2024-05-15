@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.statusmovimentosexecutados.gpvp
+spec:
+  addressName: vale.br.amq.statusmovimentosexecutados.gpvp
+  queueName: vale.br.amq.statusmovimentosexecutados.gpvp
+  routingType: anycast
+  removeFromBrokerOnDelete: true

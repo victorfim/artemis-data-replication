@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.controlm.gpvf.extracao.legados
+spec:
+  addressName: vale.br.amq.controlm.gpvf.extracao.legados
+  queueName: vale.br.amq.controlm.gpvf.extracao.legados
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.gco.motivoseresponsaveis.response
+spec:
+  addressName: vale.br.amq.gpvf.gco.motivoseresponsaveis.response
+  queueName: vale.br.amq.gpvf.gco.motivoseresponsaveis.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

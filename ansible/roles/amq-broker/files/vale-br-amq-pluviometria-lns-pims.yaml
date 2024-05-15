@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pluviometria.lns.pims
+spec:
+  addressName: vale.br.amq.pluviometria.lns.pims
+  queueName: vale.br.amq.pluviometria.lns.pims
+  routingType: anycast
+  removeFromBrokerOnDelete: true

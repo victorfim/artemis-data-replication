@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.reprocessing.crimavsl.consomear
+spec:
+  addressName: vale.br.amq.reprocessing.crimavsl.consomear
+  queueName: vale.br.amq.reprocessing.crimavsl.consomear
+  routingType: anycast
+  removeFromBrokerOnDelete: true

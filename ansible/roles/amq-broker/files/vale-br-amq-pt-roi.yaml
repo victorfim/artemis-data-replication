@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pt.roi
+spec:
+  addressName: vale.br.amq.pt.roi
+  queueName: vale.br.amq.pt.roi
+  routingType: anycast
+  removeFromBrokerOnDelete: true

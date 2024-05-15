@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvportos.silo.programacaolotes
+spec:
+  addressName: vale.br.amq.gpvportos.silo.programacaolotes
+  queueName: vale.br.amq.gpvportos.silo.programacaolotes
+  routingType: anycast
+  removeFromBrokerOnDelete: true

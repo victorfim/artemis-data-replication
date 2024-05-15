@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.waysides.gpvf.identificacaoveiculo
+spec:
+  addressName: vale.br.amq.waysides.gpvf.identificacaoveiculo
+  queueName: vale.br.amq.waysides.gpvf.identificacaoveiculo
+  routingType: anycast
+  removeFromBrokerOnDelete: true

@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.billinginvoice.sisgen.inbound
+spec:
+  addressName: vale.br.amq.billinginvoice.sisgen.inbound
+  queueName: vale.br.amq.billinginvoice.sisgen.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

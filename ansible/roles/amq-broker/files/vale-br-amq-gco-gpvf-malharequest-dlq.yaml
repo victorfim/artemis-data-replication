@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gco.gpvf.malharequest.dlq
+spec:
+  addressName: vale.br.amq.gco.gpvf.malharequest.dlq
+  queueName: vale.br.amq.gco.gpvf.malharequest.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

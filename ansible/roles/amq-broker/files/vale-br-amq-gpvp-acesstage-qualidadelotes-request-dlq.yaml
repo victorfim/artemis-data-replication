@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvp.acesstage.qualidadelotes.request.dlq
+spec:
+  addressName: vale.br.amq.gpvp.acesstage.qualidadelotes.request.dlq
+  queueName: vale.br.amq.gpvp.acesstage.qualidadelotes.request.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

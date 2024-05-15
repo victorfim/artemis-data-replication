@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.pt.sgf.efc
+spec:
+  addressName: vale.br.amq.pt.sgf.efc
+  queueName: vale.br.amq.pt.sgf.efc
+  routingType: anycast
+  removeFromBrokerOnDelete: true

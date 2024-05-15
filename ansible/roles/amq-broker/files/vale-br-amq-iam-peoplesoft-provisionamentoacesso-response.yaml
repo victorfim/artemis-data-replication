@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.iam.peoplesoft.provisionamentoacesso.response
+spec:
+  addressName: vale.br.amq.iam.peoplesoft.provisionamentoacesso.response
+  queueName: vale.br.amq.iam.peoplesoft.provisionamentoacesso.response
+  routingType: anycast
+  removeFromBrokerOnDelete: true

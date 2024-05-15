@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.send.nimbi.physicalreceipt.outbound
+spec:
+  addressName: vale.br.amq.send.nimbi.physicalreceipt.outbound
+  queueName: vale.br.amq.send.nimbi.physicalreceipt.outbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

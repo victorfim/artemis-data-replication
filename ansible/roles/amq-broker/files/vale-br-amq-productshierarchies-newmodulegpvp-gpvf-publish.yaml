@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.productshierarchies.newmodulegpvp.gpvf.publish
+spec:
+  addressName: vale.br.amq.productshierarchies.newmodulegpvp.gpvf.publish
+  queueName: vale.br.amq.productshierarchies.newmodulegpvp.gpvf.publish
+  routingType: anycast
+  removeFromBrokerOnDelete: true

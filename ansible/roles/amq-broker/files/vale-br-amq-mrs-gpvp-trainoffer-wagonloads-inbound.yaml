@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.mrs.gpvp.trainoffer.wagonloads.inbound
+spec:
+  addressName: vale.br.amq.mrs.gpvp.trainoffer.wagonloads.inbound
+  queueName: vale.br.amq.mrs.gpvp.trainoffer.wagonloads.inbound
+  routingType: anycast
+  removeFromBrokerOnDelete: true

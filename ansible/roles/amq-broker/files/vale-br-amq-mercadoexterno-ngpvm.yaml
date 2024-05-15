@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.mercadoexterno.ngpvm
+spec:
+  addressName: vale.br.amq.mercadoexterno.ngpvm
+  queueName: vale.br.amq.mercadoexterno.ngpvm
+  routingType: anycast
+  removeFromBrokerOnDelete: true

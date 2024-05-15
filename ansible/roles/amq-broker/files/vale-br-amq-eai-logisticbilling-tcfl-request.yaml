@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.eai.logisticbilling.tcfl.request
+spec:
+  addressName: vale.br.amq.eai.logisticbilling.tcfl.request
+  queueName: vale.br.amq.eai.logisticbilling.tcfl.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

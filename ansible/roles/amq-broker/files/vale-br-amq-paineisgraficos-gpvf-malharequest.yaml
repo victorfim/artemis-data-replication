@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.paineisgraficos.gpvf.malharequest
+spec:
+  addressName: vale.br.amq.paineisgraficos.gpvf.malharequest
+  queueName: vale.br.amq.paineisgraficos.gpvf.malharequest
+  routingType: anycast
+  removeFromBrokerOnDelete: true

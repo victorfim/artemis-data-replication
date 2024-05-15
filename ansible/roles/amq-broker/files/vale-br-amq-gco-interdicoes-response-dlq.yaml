@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gco.interdicoes.response.dlq
+spec:
+  addressName: vale.br.amq.gco.interdicoes.response.dlq
+  queueName: vale.br.amq.gco.interdicoes.response.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

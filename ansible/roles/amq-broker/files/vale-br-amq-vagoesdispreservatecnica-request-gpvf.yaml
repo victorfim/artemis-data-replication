@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.vagoesdispreservatecnica.request.gpvf
+spec:
+  addressName: vale.br.amq.vagoesdispreservatecnica.request.gpvf
+  queueName: vale.br.amq.vagoesdispreservatecnica.request.gpvf
+  routingType: anycast
+  removeFromBrokerOnDelete: true

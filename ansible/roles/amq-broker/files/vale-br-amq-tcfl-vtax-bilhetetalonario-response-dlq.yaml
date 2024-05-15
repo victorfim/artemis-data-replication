@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.tcfl.vtax.bilhetetalonario.response.dlq
+spec:
+  addressName: vale.br.amq.tcfl.vtax.bilhetetalonario.response.dlq
+  queueName: vale.br.amq.tcfl.vtax.bilhetetalonario.response.dlq
+  routingType: anycast
+  removeFromBrokerOnDelete: true

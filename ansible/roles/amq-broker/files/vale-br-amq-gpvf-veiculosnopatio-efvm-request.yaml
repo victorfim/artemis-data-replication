@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.gpvf.veiculosnopatio.efvm.request
+spec:
+  addressName: vale.br.amq.gpvf.veiculosnopatio.efvm.request
+  queueName: vale.br.amq.gpvf.veiculosnopatio.efvm.request
+  routingType: anycast
+  removeFromBrokerOnDelete: true

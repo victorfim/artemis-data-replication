@@ -1,0 +1,8 @@
+kind: ActiveMQArtemisAddress
+metadata:
+  name: vale.br.amq.b2b.lotload.send
+spec:
+  addressName: vale.br.amq.b2b.lotload.send
+  queueName: vale.br.amq.b2b.lotload.send
+  routingType: anycast
+  removeFromBrokerOnDelete: true
